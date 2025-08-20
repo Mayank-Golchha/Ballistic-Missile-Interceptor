@@ -1,7 +1,3 @@
-import ctypes
-ctypes.windll.user32.SetProcessDPIAware()
-
-
 import pygame
 import math
 
@@ -245,3 +241,4 @@ while running:
     pygame.display.flip()
 
 pygame.quit()
+
